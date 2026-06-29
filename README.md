@@ -1,13 +1,36 @@
 # AI Document Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot built with Python, LangChain, ChromaDB, and OpenAI.
 
-## Features
+Production-ready AI chatbot that answers questions from uploaded PDF documents using Retrieval-Augmented Generation (RAG).
 
-- PDF Reader
-- Semantic Search
-- RAG
-- OpenAI
-- ChromaDB
-- Prompt Templates
-- Evaluation
+Tech Stack
+
+Python
+
+LangChain
+
+ChromaDB
+
+OpenAI
+
+PyPDF
+
+python-dotenv
+
+# Features
+
+✔ PDF Reader
+
+✔ Semantic Search
+
+✔ Vector Database
+
+✔ Embeddings
+
+✔ RAG
+
+✔ Prompt Templates
+
+✔ Evaluation
+
+✔ Tests
