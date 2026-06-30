@@ -1,12 +1,14 @@
-from config import Config 
+from loader import PDFLoader
+
 
 def main():
-    print("=" * 50)
-    print(Config.APP_NAME)
-    print("=" * 50)
-    print(f"Model : {Config.MODEL_NAME}")
-    print(f"Debug : {Config.DEBUG}")
-    print("=" * 50)
+    pdf = PDFLoader("data/Employee_Handbook_Dummy.pdf")
+
+    text = pdf.load()
+
+    print("=" * 80)
+    print(text)
+    print("=" * 80)
 
 
 if __name__ == "__main__":
